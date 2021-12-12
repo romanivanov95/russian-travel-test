@@ -1,0 +1,12 @@
+﻿.place__textbox {
+    grid-area: textbox;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 560px) {
+    .place__textbox {
+        margin: 0 16px;
+    }
+}

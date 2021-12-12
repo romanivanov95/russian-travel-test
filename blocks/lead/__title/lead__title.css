@@ -1,0 +1,36 @@
+﻿.lead__title {
+    max-width: 720px;
+    margin: 0 auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 96px;
+    line-height: 100px;
+    text-align: center;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 720px) {
+    .lead__title {
+        max-width: 520px;
+        font-size: 70px;
+        line-height: 70px;
+    }
+}
+/*добавил брейкпойнт, иначе текст 
+вылезает за рамки и ломает верстку*/
+
+@media screen and (max-width: 560px) {
+    .lead__title {
+        max-width: 288px;
+        font-size: 40px;
+        line-height: 44px;
+    }
+}
+
+@media screen and (max-width: 319px) {
+    .lead__title {
+        max-width: 188px;
+        font-size: 24px;
+        line-height: 32px;
+    }
+}

@@ -1,0 +1,9 @@
+﻿.place__image {
+    grid-area: image;
+    max-width: 100%;
+    min-width: 100px;
+    max-height: 100%;
+    min-height: 100px;
+    align-self: flex-start;
+    margin: 0;
+}
