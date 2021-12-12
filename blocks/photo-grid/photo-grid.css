@@ -8,6 +8,7 @@
     grid-template-rows: repeat(auto-fit, minmax(213px, 1fr));
     gap: 16px;
     justify-items: stretch;
+    align-items: stretch;
 }
 
 @media screen and (max-width: 1150px) {
