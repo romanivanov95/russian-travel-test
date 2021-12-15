@@ -1,5 +1,5 @@
 ﻿.footer {
-    max-width: 100%;
+    max-width: 1184px;
     margin: 92px 0 0;
     padding: 0;
     display: flex;
@@ -8,13 +8,13 @@
 
 @media screen and (max-width: 900px) {
     .footer {
-        margin: 92px 24px 0;
+        margin: 88px 24px 0;
     }
 }
 
 @media screen and (max-width: 560px) {
     .footer {
-        margin: 92px auto 0 16px;
+        margin: 64px auto 0 16px;
         max-width: 100%;
         flex-direction: column;
     }
